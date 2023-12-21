@@ -1,0 +1,190 @@
+/* Master styles */
+body {
+    margin: 0px;
+}
+
+/* Navigation bar Styles */
+.luv {
+    display:flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.leftside {
+    display: flex;   
+}
+
+.luv > .leftside> div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.link a {
+    color: #384727;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    border-bottom: 1px solid black;
+}
+
+.link:hover {
+    color: black;
+}
+
+.love{
+    display: block;
+  padding: 2px;
+  background-color: #E5DAF5;
+}
+
+
+.background {
+    background-image: url("Vaccine.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.backgroundtext {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    margin: auto;
+    font-size: 6em;
+    color:black;
+}
+
+.web {
+    
+    font-size: 1em;
+}
+
+.start {
+
+    font-size: 1.8rem;
+    color:#384727;
+}
+
+.mission {
+    font-size:  1em; 
+}
+
+.stop {
+    
+    font-size: 1.8rem;
+    color: #384727;
+}
+
+.all {
+    
+    width: 50%;
+    margin: auto; 
+    font-style: normal;
+
+}
+
+.all::after {
+    clear: both;
+    display: table;
+    content:"";
+}
+
+.vision {
+    font-size:  1em; 
+
+}
+
+.row {
+    float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: auto;
+  box-shadow: 0px 1px 10px 1px #c7cef4;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c7cef4;
+    background-size: 100%;
+}
+.contacts {
+    font-size: 1em;
+    color: #384727;
+}
+
+.beb{
+    font-style: normal;
+}
+.cquiz{
+    color: red;
+    font-weight: bolder;
+}
+.quiz-form{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.quiz-form form{
+    border: 2px solid #384727;
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+}
+.quiz-form  form select{
+width: 60%;
+border-radius: 1em;
+padding: 1em;
+}
+.quiz-form  .quiz {
+font-weight: bold;
+margin-bottom: 1em;
+margin-top: 1em;
+
+}
+.quiz label{
+    font-weight: bold;
+}
+
+.quiz-form  form input[type="submit"]{
+    background: #c7cef4;
+    padding: 1em;
+    width: 40%;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.quiz-form  form input[type="submit"]:hover{
+background: #384727;
+color: #fff;
+}
+.display-score{
+    display: flex;
+    display: none;
+    flex-direction:column;
+    justify-items: center;
+    position: absolute;
+    bottom: 25%; 
+    right: 35%;
+    height: 100px;
+    width: 100px;
+    background: #384727;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+

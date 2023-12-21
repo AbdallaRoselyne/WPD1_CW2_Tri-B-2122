@@ -1,0 +1,543 @@
+/* Master styles */
+body {
+    margin: 0px;
+}
+
+.love {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+/* Navigation bar Styles */
+.luv {
+    display:flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.leftside {
+    display: flex;   
+}
+
+.luv > .leftside> div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.link a {
+    color: blueviolet;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    border-bottom: 1px solid black;
+}
+
+.link:hover {
+    color: black;
+}
+
+.brandname {
+    font-size: 1.5em;
+    font-style: bold;
+}
+
+/* Portfolio styles */
+.background {
+    background-image: url("../Images/portfolio6.jpg");
+    height: 500px;
+    width: 100%;
+    opacity: 0.9;
+    position: relative;
+}
+
+.backgroundtext {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-size: 7.5em;
+    color: black;
+}
+
+.web {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.start {
+    text-align: center;
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.mission {
+    font-size:  1.5em; 
+}
+
+.stop {
+    text-align: center;
+    font-size: 2rem;
+    color: blueviolet;  
+}
+
+.all {
+    text-align: center;
+    box-shadow: 0px 1px 10px 1px #FEC0CB;
+    width: 50%;
+    margin: auto;
+
+}
+
+.vision {
+    font-size:  1.5em; 
+}
+
+.services {
+    font-size: 1.6em;
+    color: blueviolet;
+}
+
+.explain {
+    font-size: 1.3em;
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet
+
+}
+.contacts {
+    font-size: 1.3em;
+}
+
+
+/* about page styles */
+
+.describe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 10px 1px #000;
+    width: 50%;
+    margin: auto;
+}
+
+.myprofile {
+    
+    width: 500px;
+    
+}
+.myprofile img{
+    border-radius: 50%;
+}
+
+.mystory {
+    font-style: italic;
+    color: blueviolet;
+    font-size: 1.5em;
+}
+
+.mystoryp {
+    color: black;
+    font-size: 1.2em;
+
+}
+
+/* Entertainment styles */
+.one1 {
+    background-image: url(../Images/ent.jpg);
+    height: 500px;
+    width: 100%;
+    opacity: 0.75;
+    position: relative;
+}
+
+.onetext {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 9em;
+    color: black;
+}
+
+.one2 {
+    text-align: center;
+    font-size: 1.3em;
+}
+.event {
+    display: flex;
+    
+    
+}
+
+.aah {
+    width: 45%;
+    height: 500px;
+  
+}
+.event2 h1 {
+    color: black;
+    
+}
+.event2 p {
+    font-size: 1.2em;
+    padding: auto;
+    
+}
+
+.movie {
+    display: flex;
+}
+
+.movie h1 {
+    color: black;
+}
+
+.movie p{
+    font-size: 1.2em;
+}
+.movie a {
+    width: 45%;
+    height: 500px;
+}
+
+.comedy {
+    display: flex;
+}
+
+.comedy h1{
+    color: black;
+}
+
+.comedy p {
+    font-size: 1.2em;
+}
+
+.comedy a {
+    height: 500px;
+    width: 45%;
+}
+
+/* Travel and destination styles */
+
+.two1 {
+    background-image: url(../Images/portfolio5.jpg);
+    height: 500px;
+    width: 100%;
+    opacity: 0.75;
+    position: relative;
+}
+
+.twotext {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 9em;
+    color: black;
+}
+
+.two2 {
+    font-size: 1.3em;
+    text-align: center;
+}
+.mountain {
+    display: flex;
+
+}
+
+.mountain2 h1 {
+    color: black;
+    text-align: center;
+}
+
+.mountain2 p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+.eeh {
+    width: 45%;
+    height: 500px;
+}
+
+.sunset {
+    display: flex;
+}
+
+.sunset2 h1 {
+    color: black;
+    text-align: center;
+}
+
+
+.sunset2 p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.iih {
+    width: 30%;
+    height: 500px;
+}
+
+.lewa {
+    display: flex;
+}
+
+.lewa2 h1 {
+    color: black;
+    text-align: center;
+}
+
+.lewa2 p {
+    font-size: 1.2em;
+    text-align: center;
+}
+.ooh {
+    width: 45%;
+    height: 500px ;
+}
+
+/* Business styles */
+
+.three1 {
+    background-image: url(../Images/alone.jpg);
+    height: 500px;
+    width: 100%;
+    opacity: 0.90;
+    position: relative;
+}
+
+.threetext {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    font-size: 11em;
+    color: black;
+
+}
+
+.three2 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.travels {
+    display: flex;
+}
+
+.Travels2 h1 {
+    color: black;
+    text-align: center;  
+}
+
+.Travels2 p {
+    font-size: 1.2em;
+    text-align: center; 
+}
+
+.laa {
+    width: 30%;
+    height: 500px ; 
+}
+
+.delivery {
+    display: flex;
+}
+
+.delivery2 h1 {
+    color: black;
+    text-align: center;  
+}
+
+.delivery p {
+    font-size: 1.2em;
+    text-align: center; 
+}
+
+.lee {
+    width: 30%;
+    height: 500px ;  
+}
+
+.translation {
+    display: flex;
+}
+
+.translation h1 {
+    color: black;
+    text-align: center;    
+}
+
+.translation p {
+    font-size: 1.2em;
+    text-align: center; 
+}
+
+.lii {
+    width: 30%;
+    height: 500px ;    
+}
+
+/* Health and Welness styles */
+
+.four1 {
+    background-image: url(../Images/lone.jpg);
+    height: 500px;
+    width: 100%;
+    opacity: 0.75;
+    position: relative;
+}
+
+.fourtext {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 9em;
+    color: black; 
+}
+
+.four2 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.vaccine {
+    display: flex;
+}
+
+.vaccine h1{
+    text-align: center;
+}
+
+.vaccine p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.maa {
+    width: 30%;
+    height: 500px ;  
+}
+
+.exercise {
+    display: flex;
+}
+
+.exercise h1 {
+    text-align: center;
+}
+
+.exercise p{
+    text-align: center;
+    font-size:  1.2em; 
+}
+
+.mee {
+    width: 30%;
+    height: 500px ; 
+}
+
+.screen {
+    display: flex;
+}
+
+.screen h1 {
+    text-align: center;
+}
+
+.screen p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.mii {
+    width: 25%;
+    height: 500px ; 
+}  
+
+/* Personal and Home styles */
+
+.five1 {
+    background-image: url(../Images/home.jpg);
+    height: 500px;
+    width: 100%;
+    opacity: 0.75;
+    position: relative;
+}
+
+.fivetext {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 9em;
+    color:black; 
+}
+
+.five2 {
+    font-size: 1.3em;
+    text-align: center;
+}
+.child {
+    display: flex;
+}
+.child2 h1{
+text-align: center;
+}
+.child2 p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.daa {
+    width: 25%;
+    height: 500px ;   
+}
+
+.pet {
+    display: flex;
+}
+
+.pet2 h1 {
+    text-align: center;
+}
+
+.pet2 p{
+    text-align: center;
+    font-size: 1.2em;  
+}
+
+.dee {
+    width: 25%;
+    height: 500px ;
+}
+
+.home1 {
+    display: flex;
+}
+
+.home2 h1 {
+    text-align: center;
+}
+.home2 p {
+    text-align: center;
+    font-size: 1.2em;  
+}
+
+.dii {
+    width: 25%;
+    height: 500px ;
+}
+
+
+

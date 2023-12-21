@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, registration form" />
+<meta name="description" content="This document is a JavaScript Form Validation using a registration form. " />
+<link rel="stylesheet" href="js-form-validation.css" type="text/css" />
+<link rel="stylesheet" href="style.css">
+<script src="registration-form-validation.js"></script>
+</head>
+<body>
+    <div class="love">
+        <div class="luv">
+            <div class="rightside"> 
+                <a href="#"><img src="waridi2.png"></a>
+            </div>
+            
+                
+                <div class="leftside">
+                    <div class="link">
+                         <a href="index.html">Homepage</a>
+                    </div>
+
+                    <div class="link">
+                        <a href="FAQs.html">FAQs</a>
+                    </div>
+                    <div class="link">
+                        <a href="Contacts.html">Contacts</a>
+                    </div>
+                </div>
+    
+        </div> 
+    </div>
+
+    <body onload="document.registration.userid.focus();">
+        <h1>Registration Form</h1>
+        <form name="registration" method="POST" action="contacts.php">
+        <ul>
+        
+        <li><label for="username">Name:</label></li>
+        <li><input type="text" name="pname" size="50" /></li>
+        <li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" /></li>
+<li><label for="country">Country:</label></li>
+<li><select name="country">
+<option selected="" value="Default">(Please select a country)</option>
+<option value="AF">China</option>
+<option value="AL">United Kingdom</option>
+<option value="DZ">SwitzerLand</option>
+<option value="AS">Ethiopia</option>
+<option value="AD">USA</option>
+</select></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="50" /></li>
+<li><label id="gender">Sex:</label></li>
+<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><label>Language:</label></li>
+<li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Other</span></li>
+<li><label for="desc">About:</label></li>
+<li><textarea name="desc" id="desc"></textarea></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+
+    <div class="con">
+        <h1>Waridi Agency</h1>
+        <h2>Contact Us!</h2>
+        <h3>We can't wait to hear from you!</h3>
+            <div class="contacts">
+                <p>Facebook : Roseline Abdalla</p>
+                <p>Instagram: rose_ly.ne</p>
+                <p>Email: abdallaroselyne8@gmail.com</p>
+                <p>Phone :+254705945215 </p>
+                <p>Whatsapp: +254705945215</p>
+                <h2>Thank you!</h2>
+             </div>
+             
+    </div> 
+    
+    
+    
+</body>
+</body>
+</html>
